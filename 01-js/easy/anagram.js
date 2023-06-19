@@ -7,6 +7,7 @@
   - `npm run test-anagram`
 */
 
+
 function sort(str) {
   const array = str.toLowerCase().split("").sort();
   return array.join("");
